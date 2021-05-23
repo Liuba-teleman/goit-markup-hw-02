@@ -9,6 +9,40 @@
   margin: 0;
   padding: 0;
 }
+h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.171;
+  letter-spacing: 0.03em;
+}
+h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.172;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+h4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.171;
+  letter-spacing: 0.03em;
+}
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.171;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
 span {
   color: var(--pretty-color);
 }
@@ -24,6 +58,7 @@ body {
   font-style: normal;
   color: var(--black-color);
 }
+
 .logo {
   font-family: var(--logo-font);
 }
@@ -40,6 +75,19 @@ body {
   padding: 6px 22px;
   border: 1px solid #f5f4fa;
   background: #f5f4fa;
+  border-radius: 4px;
+}
+.mainButton {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  padding: 10px 32px;
+  color: #ffffff;
+  border: 1px solid var(--pretty-color);
+  background: var(--pretty-color);
   border-radius: 4px;
 }
 .buttons:hover {
@@ -63,4 +111,24 @@ body {
 .contactsList a:hover,
 .contactsList a:focus {
   color: var(--pretty-color);
+}
+.footer {
+  background-color: #2f303a;
+}
+
+.address {
+  color: white;
+}
+.studio {
+  color: white;
+}
+.footer-adress {
+  font-family: Roboto;
+  font-style: normal;
+  line-height: 1.714;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
