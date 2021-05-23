@@ -1,11 +1,66 @@
-span {
-  color: #2196f3;
+:root {
+  --pretty-color: #2196f3;
+  --black-color: rgba(33, 33, 33, 1);
+  --main-font: 'Roboto', sans-serif;
+  --logo-font: 'Raleway', sans-serif;
 }
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+span {
+  color: var(--pretty-color);
+}
 ul {
   list-style: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+body {
+  font-family: var(--main-font);
+  font-style: normal;
+  color: var(--black-color);
+}
+.logo {
+  font-family: var(--logo-font);
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.buttons {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding: 6px 22px;
+  border: 1px solid #f5f4fa;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.buttons:hover {
+  background: var(--pretty-color);
+  border: 1px solid var(--pretty-color);
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 0.1em 3px rgba(122, 122, 122, 0.5);
+}
+
+.section1 {
+  background-color: #2f303a;
+  color: rgba(255, 255, 255, 1);
+}
+.header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.172;
+}
+.navList a:hover,
+.navList a:focus,
+.contactsList a:hover,
+.contactsList a:focus {
+  color: var(--pretty-color);
 }
