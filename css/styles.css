@@ -29,16 +29,15 @@ h2 {
   letter-spacing: 0.03em;
 }
 h3 {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.172;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-h4 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.171;
+  letter-spacing: 0.03em;
+ }
+h4 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.172;
   letter-spacing: 0.03em;
 }
 p {
