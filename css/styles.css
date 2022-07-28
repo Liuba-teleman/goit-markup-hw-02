@@ -14,39 +14,7 @@ body {
   margin: 0;
   padding: 0;
 }
-h1 {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.363;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
-h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.171;
-  letter-spacing: 0.03em;
-}
-h3 {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.171;
-  letter-spacing: 0.03em;
- }
-h4 {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.172;
-  letter-spacing: 0.03em;
-}
-p {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.171;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
+
 span {
   color: var(--pretty-color);
 }
@@ -62,12 +30,25 @@ a {
 .logo {
   font-family: var(--logo-font);
   color: #000000;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo-footer {
+  font-family: var(--logo-font);
+  color: white;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 .container {
   width: 1200px;
   margin: 0 auto;
 }
 .buttons {
+  
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
@@ -110,6 +91,87 @@ a {
   font-size: 14px;
   line-height: 1.172;
 }
+.header-links {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;
+}
+.menu-elements{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.menu-elements-names {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+  }
+.about  {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+ }
+
+.about-title {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.about-text {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.what-we-do
+{
+ font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.team
+{
+ font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.team-member
+{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.team-role
+{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
 .navList a:hover,
 .navList a:focus,
 .contactsList a:hover,
@@ -132,7 +194,7 @@ a {
   line-height: 1.714;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }

@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
@@ -16,17 +16,17 @@
     <header class="header">
         <div class="container">
         <nav class="navList">
-          <p class="logo"><span >Web</span>Studio</p>
+        <a class="logo" href="index.html"> <span >Web</span>Studio</a>
             <ul>
                
                 <li>
-                    <a href="index.html">Студия</a>
+                    <a class="header-links" href="index.html">Студия</a>
                 </li>
                 <li>
-                    <a href="portfolio.html">Портфолио</a>
+                    <a class="header-links" href="portfolio.html">Портфолио</a>
                 </li>
                 <li>
-                    <a href="#contacts">Контакты</a>
+                    <a class="header-links" href="#contacts">Контакты</a>
                 </li>
             </ul>
         </nav>
@@ -43,7 +43,7 @@
     <main>
         <section class="section1">
             <div class="container">
-            <h1>Эффективные решения для вашего бизнеса </h1>
+            <h1 class="about">Эффективные решения для вашего бизнеса </h1>
             <button class="mainButton"  type="button">Заказать услугу</button>
              </div>
         </section>
@@ -51,37 +51,37 @@
             <div class="container">
              <ul>
           <li>
-            <h3>Внимание к деталям</h3>
+            <h3 class="about-title">Внимание к деталям</h3>
           </li>
           <li>
-            <p>
+            <p class="about-text">
               Идейные соображения,а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
           <li>
-            <h3>Пунктуальность</h3>
+            <h3 class="about-title" >Пунктуальность</h3>
           </li>
           <li>
-            <p>
+            <p class="about-text">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
           <li>
-            <h3>Планирование</h3>
+            <h3 class="about-title">Планирование</h3>
           </li>
           <li>
-            <p>
+            <p class="about-text">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li>
-            <h3>Современные технологии</h3>
+            <h3 class="about-title">Современные технологии</h3>
           </li>
           <li>
-            <p>
+            <p class="about-text">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -91,7 +91,7 @@
         </section>
         <section>
             <div class="container">
-            <h2>Чем мы занимаемся</h2>
+            <h2 class="what-we-do">Чем мы занимаемся</h2>
             <ul>
                 <li>
                     <img src="./img/box1.jpg" alt="фото1" width="270">
@@ -108,28 +108,28 @@
         </section>
         <section>
             <div class="container">
-            <h2>Наша команда</h2>
+            <h2 class="team">Наша команда</h2>
             <ul>
                 <li>
                     <img src="./img/productdesigner.jpg" alt="Игорь Демьяненко" width="270">
-                    <h3>Игорь Демьяненко</h3>
-                    <p>Product Designer</p>
+                    <h3 class="team-member">Игорь Демьяненко</h3>
+                    <p class="team-role">Product Designer</p>
 
                 </li>
                 <li>
                     <img src="./img/frontenddeveloper.jpg" alt="Ольга Репина" width="270">
-                    <h4>Ольга Репина</h4>
-                    <p>Frontend Developer</p>
+                    <h3 class="team-member">Ольга Репина</h3>
+                    <p class="team-role">Frontend Developer</p>
                 </li>
                 <li>
                     <img src="./img/marketing.jpg" alt="Николай Тарасов" width="270">
-                    <h3>Николай Тарасов</h3>
-                    <p>Marketing</p>
+                    <h3 class="team-member">Николай Тарасов</h3>
+                    <p class="team-role">Marketing</p>
                 </li>
                 <li>
                     <img src="./img/uidesigner.jpg" alt="Михаил Ермаков" width="270">
-                    <h3>Михаил Ермаков</h3>
-                    <p>UI Designer</p>
+                    <h3 class="team-member">Михаил Ермаков</h3>
+                    <p class="team-role">UI Designer</p>
                 </li>
             </ul>
             </div>
@@ -137,7 +137,7 @@
     </main>
     <footer class="footer">
         <div class="container">
-            <p class="logo"><span>Web</span> <span class="studio">Studio</span> </p>
+          <a class="logo-footer" href="index.html"> <span >Web</span>Studio</a>
     
             <address class="footer-adress">
                 <ul>
