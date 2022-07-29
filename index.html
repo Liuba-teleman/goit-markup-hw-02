@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
@@ -32,22 +33,24 @@
         </nav>
         <ul class="contactsList">
             <li>
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
             <li>
-                <a href="tel:+380961111111">+38 096 111 11 11</a>
+                <a class="contacts" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
         </ul>
         </div>
     </header>
     <main>
         <section class="section1">
-            <div class="container">
-            <h1 class="about">Эффективные решения для вашего бизнеса </h1>
-            <button class="mainButton"  type="button">Заказать услугу</button>
+          <div class="container">
+          <div class="container-content">
+           <h1 class="about">Эффективные решения для вашего бизнеса </h1>
+           <button class="mainButton"  type="button">Заказать услугу</button>
              </div>
+        </div>
         </section>
-        <section>
+        <section class="main">
             <div class="container">
              <ul>
           <li>
@@ -87,10 +90,7 @@
             </p>
           </li>
         </ul>
-            </div>
-        </section>
-        <section>
-            <div class="container">
+    
             <h2 class="what-we-do">Чем мы занимаемся</h2>
             <ul>
                 <li>
